@@ -1,97 +1,31 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "BTCA Docs"
+description: "Local and cloud APIs for better-context search"
 ---
 
-## Setting up
+BTCA is a CLI + local server + cloud sandbox for fast, accurate codebase lookup.
 
-Get your documentation site up and running in minutes.
-
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
-
-## Make it yours
-
-Design a docs site that looks great and empowers your users.
+Use the guides to get set up, then jump into the API reference for exact request and
+response shapes.
 
 <Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
+  <Card title="Quickstart" icon="rocket" href="/guides/quickstart">
+    Install the CLI, initialize a project, and run your first query.
   </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
+  <Card title="Authentication" icon="key" href="/guides/authentication">
+    Connect providers locally and link cloud API keys.
   </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
+  <Card title="Configuration" icon="sliders" href="/guides/configuration">
+    Understand config files, defaults, and validation limits.
   </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
+  <Card title="API reference" icon="terminal" href="/api-reference/introduction">
+    Browse local server and cloud API endpoints.
   </Card>
 </Columns>
 
-## Create beautiful pages
+## Two surfaces
 
-Everything you need to create world-class documentation.
+Choose the surface that matches your workflow:
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+- **Local server API**: HTTP endpoints on `http://localhost:<port>` with no auth.
+- **Cloud API**: Remote endpoints under `https://btca.dev` with Bearer auth.

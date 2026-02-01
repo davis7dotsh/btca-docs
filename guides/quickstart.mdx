@@ -1,0 +1,38 @@
+---
+title: "Quickstart"
+description: "Install BTCA, initialize a project, and run your first query"
+---
+
+## 1) Install the CLI
+
+BTCA requires Bun.
+
+```bash
+bun add -g btca opencode-ai
+```
+
+## 2) Initialize a project
+
+From your repo root:
+
+```bash
+btca init
+```
+
+Choose **CLI** for local resources or **MCP** for cloud resources. The wizard writes
+`btca.config.jsonc` or `btca.remote.config.jsonc`.
+
+## 3) Add a resource and ask a question
+
+```bash
+btca add https://github.com/sveltejs/svelte.dev
+btca ask -q "How do I create a store?"
+```
+
+## Optional: run the local server
+
+```bash
+btca serve
+```
+
+The server starts on port `8080` by default and exposes the local HTTP API.

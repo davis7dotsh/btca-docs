@@ -21,6 +21,10 @@
       "weight": 400
     }
   },
+  "openapi": [
+    "/api-reference/openapi.local.json",
+    "/api-reference/openapi.cloud.json"
+  ],
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
@@ -29,27 +33,11 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Customization",
-            "pages": ["essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "Writing content",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "index",
+              "guides/quickstart",
+              "guides/authentication",
+              "guides/configuration"
             ]
           }
         ]
@@ -58,16 +46,39 @@
         "tab": "API reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Overview",
             "pages": ["api-reference/introduction"]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Local server API",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/local/health",
+              "api-reference/local/config",
+              "api-reference/local/resources",
+              "api-reference/local/providers",
+              "api-reference/local/reload-config",
+              "api-reference/local/question",
+              "api-reference/local/question-stream",
+              "api-reference/local/opencode",
+              "api-reference/local/opencode-instances",
+              "api-reference/local/opencode-instances-clear",
+              "api-reference/local/opencode-instance",
+              "api-reference/local/config-model",
+              "api-reference/local/config-resources",
+              "api-reference/local/config-resources-delete",
+              "api-reference/local/clear"
+            ]
+          },
+          {
+            "group": "Cloud API",
+            "pages": [
+              "api-reference/cloud/mcp",
+              "api-reference/cloud/status",
+              "api-reference/cloud/wake",
+              "api-reference/cloud/thread",
+              "api-reference/cloud/threads",
+              "api-reference/cloud/questions",
+              "api-reference/cloud/projects"
             ]
           }
         ]
