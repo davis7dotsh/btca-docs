@@ -1,0 +1,12 @@
+{
+  "name": "btca-docs",
+  "private": true,
+  "scripts": {
+    "check": "prettier --check docs.json style.css && prettier --check --parser html logo/*.svg favicon.svg",
+    "format": "prettier --write docs.json style.css && prettier --write --parser html logo/*.svg favicon.svg"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
