@@ -18,7 +18,7 @@ All details reflect the current repo state.
 ### CLI (global)
 
 ```bash
-bun add -g btca opencode-ai
+bun add -g btca
 ```
 
 ### Server library
