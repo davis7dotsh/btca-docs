@@ -38,7 +38,8 @@
               "guides/quickstart",
               "guides/cli-reference",
               "guides/authentication",
-              "guides/configuration"
+              "guides/configuration",
+              "guides/mcp"
             ]
           }
         ]
