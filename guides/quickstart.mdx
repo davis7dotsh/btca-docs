@@ -22,11 +22,16 @@ btca init
 Choose **CLI** for local resources or **MCP** for cloud resources. The wizard writes
 `btca.config.jsonc` or `btca.remote.config.jsonc`.
 
-## 3) Add a resource and ask a question
+## 3) Add a resource
 
 ```bash
-btca add https://github.com/sveltejs/svelte.dev
-btca ask -q "How do I create a store?"
+btca add -n svelte-dev https://github.com/sveltejs/svelte.dev
+```
+
+## 4) Ask a question
+
+```bash
+btca ask -r svelte-dev -q "How do I define remote functions?"
 ```
 
 ## Optional: run the local server
