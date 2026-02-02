@@ -36,6 +36,7 @@
             "pages": [
               "index",
               "guides/quickstart",
+              "guides/cli-reference",
               "guides/authentication",
               "guides/configuration"
             ]
@@ -59,10 +60,6 @@
               "api-reference/local/reload-config",
               "api-reference/local/question",
               "api-reference/local/question-stream",
-              "api-reference/local/opencode",
-              "api-reference/local/opencode-instances",
-              "api-reference/local/opencode-instances-clear",
-              "api-reference/local/opencode-instance",
               "api-reference/local/config-model",
               "api-reference/local/config-resources",
               "api-reference/local/config-resources-delete",

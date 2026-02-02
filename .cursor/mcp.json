@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "better-context": {
+      "url": "https://btca.dev/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ak_A5MQVEK378Q4FTZSFT5B55TXW756R7FR"
+      }
+    }
+  }
+}
